@@ -400,3 +400,27 @@ footer .widget-departments .location{
 
 }
 
+@media (max-width:600px) {
+    .banner-headline h1 {
+        font-size: 55px;
+    }
+    
+    .banner-headline h2 {
+        font-size: 17px;
+    }
+
+    .banner-headline {
+        padding: 20px;
+    }
+
+    .banner-options {
+        height: auto;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .time {
+        margin: 12px 0px;
+    }
+}
