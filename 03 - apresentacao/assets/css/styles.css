@@ -1,0 +1,74 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+header .container {
+    background-color: #F0FFF0;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+.tilogo img {
+    height: 50px;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #39AAE1;
+    color: #FFF;
+    transition: 0.3s;
+}
+section .container{
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-around;
+}
+section .tijolo img{
+    width: 400px;
+}
+section .tijolo-info ul {
+    list-style-position: inside;
+}
+
+section .tijolo-info button {
+    background-color: #F0FFF0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+}
+
+section .tijolo-info button:hover {
+    background-color: #F0FFF0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+}

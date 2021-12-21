@@ -12,39 +12,62 @@
         <div class="titulo">
             <h1>Cadastro de informações</h1>
         </div>
-        
         <div class="form">
             <form>
-                <fieldset class="personal">
-                    <legend>Informações pessoais</legend>
-                    <label for="name">Nome:</label>
-                    <input type="text" placeholder="Digite o seu nome" id="name">
-                    <label for="lastname">Sobrenome:</label>
-                    <input type="text" placeholder="Digite seu sobrenome" id="lastname"> 
-                    <label for="data">Data de nascimento:</label>
-                    <input type="date" placeholder="Digite uma data" id="data"> 
-                    <label for="cpf">CPF:</label>
-                    <input type="tex" pattern="\d*" maxlength="11" minlength="11" required id="cpf">
-                </fieldset>
-                <fieldset class="personal">
-                    <legend>Endereço</legend>
-                    <label for="rua">Rua:</label>
-                    <input type="text" placeholder="Digite o nome da rua" id="rua">
-                    <label for="cidade">Cidade:</label>
-                    <input type="text" placeholder="Digite a cidadae" id="cidade"> 
-                    <label for="uf">Estado:</label>
-                    <select id="uf">
-                        <option value="pe">PE</option>
-                        <option value="pb">PB</option>
-                        <option value="pi">PI</option>
-                        <option value="rn">RN</option>
-                    </select>
-                    <label for="cpf">CPF:</label>
-                    <input type="tex" pattern="\d*" maxlength="11" minlength="11" required id="cpf">
-                </fieldset>
-                <input type="submit">
+                <div class="dados">
+                    <fieldset>
+                        <legend>Informações pessoais</legend>
+                        <label for="name">Nome:</label>
+                        <input type="text" placeholder="Digite o seu nome" id="name">
+                        <label for="lastname">Sobrenome:</label>
+                        <input type="text" placeholder="Digite seu sobrenome" id="lastname"> 
+                        <label for="data">Data de nascimento:</label>
+                        <input type="date" placeholder="Digite uma data" id="data"> 
+                        <label for="cpf">CPF:</label>
+                        <input type="text" pattern="\d*" maxlength="11" minlength="11" required id="cpf" placeholder="Somente números">
+                    </fieldset>
+                
+                    <fieldset>
+                        <legend>Endereço</legend>
+                        <label for="rua">Rua:</label>
+                        <input type="text" placeholder="Digite o nome da rua" id="rua">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" placeholder="Digite a cidade" id="cidade"> 
+                        <div class="flex-row">
+                            <label for="num">Nº:</label>
+                            <input type="text" pattern="\d*" maxlength="999" minlength="1" required id="num">
+                            <label for="sn">SN:</label>
+                            <input type="checkbox" id="sn">
+                        </div>
+                        <label for="uf">Estado:</label>
+                        <select id="uf">
+                            <option value="pe">PE</option>
+                            <option value="pb">PB</option>
+                            <option value="pi">PI</option>
+                            <option value="rn">RN</option>
+                        </select>
+                        
+                    </fieldset>
+                    <fieldset>
+                        <legend>Mensagem</legend>
+                        <label for="subject">Assunto:</label>
+                        <input type="text" placeholder="Digite o assunto" id="subject">
+                        <label for="msg">Mensagem:</label>
+                        <textarea name="msg" id="msg" cols="30" rows="10"></textarea> 
+                        <div class="flex-row">
+                            <label for="num">Nº:</label>
+                            <input type="text" pattern="\d*" maxlength="1" minlength="11" required id="num">
+                            <label for="sn">SN:</label>
+                            <input type="checkbox" id="sn">
+                        </div>
+                        
+                    </fieldset>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Enviar">
+                </div>
+                
             </form>
-
         </div>
     </div>
     
