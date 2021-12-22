@@ -1,0 +1,82 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #202124;
+}
+
+header {
+    display: flex;
+    padding: 0px 30px;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+header .right {
+    display: flex;
+    align-items: center;
+}
+header .logo-area img {
+    width: 80px;
+    margin-right: 30px;
+}
+header .search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header input {
+    border: 1px solid #303134;
+    background-color: #303134;
+    border-radius: 30px;
+    width: 600px;
+    padding: 10px 30px;
+    margin: 20px;
+    outline: none;
+    
+}
+
+header input:hover {
+    box-shadow: 0 0 1px 1px #888;
+}
+
+header .search-options a,
+header .search-options button {
+    text-decoration: none;
+    color: #5b6e7d;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+header .search-options button {
+    background-color: transparent;
+    border: none;
+    margin-left: 40px;
+    padding: 8px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+}
+
+header .search-options button:hover {
+    background-color: #303134;
+    border: 0.5px solid #888
+}
+
+header .user-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .user-box img {
+    border-radius: 50%;
+    background-size: cover;
+    width: 25px;
+}
+hr {
+    margin: 0px;
+}

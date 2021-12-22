@@ -16,6 +16,7 @@ body {
     flex-wrap: wrap;
 }
 header .container {
+    margin-top: 20px;
     background-color: #F0FFF0;
 }
 nav ul,
@@ -67,8 +68,70 @@ section .tijolo-info button {
 }
 
 section .tijolo-info button:hover {
-    background-color: #F0FFF0;
+    background-color: #F5F5DC;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #CCC;
+}
+article .container {
+    display: block;
+}
+article .tijolos-tipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tijolos-item {
+    border: 1px solid #CCC;
+    border-radius: 30px;
+    padding: 20px 35px;
+    margin: 15px;
+}
+
+.tijolos-item:hover {
+    box-shadow: 0 0 5px 5px #aaa;
+    transition: 0.3s;  
+}
+
+
+article .tijolo-h2 {
+    display: block;
+    
+}
+
+article .tijolos-item img {
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+}
+article .tijolos-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.tijolo-title {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 6px;
+    
+}
+.tijolo-text {
+    color: #777;
+    margin-bottom: 12px;
+}
+
+#banner {
+    background-color: #F0FFF0;
+    padding: 25px 50px;
+}
+
+.area-foto img {
+    width: 700px;
+}
+
+.texto-f {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 }
