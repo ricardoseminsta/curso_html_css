@@ -1,0 +1,25 @@
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 200;
+    text-shadow: 1px 1px 3px #333;
+}
+
+.selo {
+    position: fixed;
+    top: 40px;
+    left: -50px;
+    display: inline-block;
+    padding: 10px 60px;
+    background-color: #4169E1;
+    border-style: double;
+    border-color: #FFF;
+    box-shadow: 1px 1px 5px #222;
+    transform: rotate(-45deg);
+    
+}
