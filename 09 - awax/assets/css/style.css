@@ -933,4 +933,29 @@ header {
     .section-service:first-child {
         border-left: 0;
     }
+
+    .section-team {
+        max-width: 580px;
+    }
+
+    .section-map {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section-map--area {
+        width: auto;
+    }
+
+    .section-map--info {
+        width: auto;
+    }
+
+    .section-map--info-item {
+        margin-bottom: 20px;
+    }
+
+    .section-map--info-item:last-child {
+        margin-bottom: 0;
+    }
 }
